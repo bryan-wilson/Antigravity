@@ -184,6 +184,59 @@ section {
     color: #0f172a;
 }
 
+/* Education Section */
+.education {
+    background-color: #0f172a;
+}
+.timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid #334155;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+.timeline-dot {
+    position: absolute;
+    left: -2.55rem;
+    top: 0.3rem;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #38bdf8;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2);
+}
+.timeline-content {
+    background-color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+.timeline-content:hover {
+    transform: translateX(5px);
+}
+.timeline-content h3 {
+    color: #f8fafc;
+    margin-bottom: 0.3rem;
+}
+.timeline-date {
+    display: inline-block;
+    color: #38bdf8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.timeline-content p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
 /* Projects Section */
 .project-grid {
     display: grid;

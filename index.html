@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Porto<span>Folio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Halo, Saya <span class="highlight">Bryan Wilson</span></h1>
+                <p>Saya membangun pengalaman digital interaktif dan responsif.</p>
+                <a href="#projects" class="btn">Lihat Karya Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <p>Saya adalah seorang pengembang web front-end yang antusias dengan desain antarmuka pengguna dan interaktivitas. Saya menggunakan HTML, CSS, dan JavaScript untuk menghidupkan ide-ide kreatif.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">React</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #4facfe, #00f2fe);"></div>
+                    <div class="project-info">
+                        <h3>Aplikasi Cuaca</h3>
+                        <p>Aplikasi untuk mengecek cuaca secara real-time menggunakan API publik.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #43e97b, #38f9d7);"></div>
+                    <div class="project-info">
+                        <h3>Dashboard Admin</h3>
+                        <p>Tampilan dashboard interaktif dengan grafik dan analitik data.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #fa709a, #fee140);"></div>
+                    <div class="project-info">
+                        <h3>Toko Online</h3>
+                        <p>Katalog produk responsif dengan fitur pencarian dan keranjang belanja.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Portofolio Saya. Dibuat dengan antusiasme.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
